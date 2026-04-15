@@ -1,1 +1,76 @@
+# ===========================
+# Dados e Modelos (não versionar)
+# ===========================
+data/
+datasets/
+models/
+*.pt
+*.pth
+*.onnx
+*.tif
+*.tiff
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# ===========================
+# Jupyter Notebooks
+# ===========================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ===========================
+# Ambientes Virtuais
+# ===========================
+venv/
+env/
+.venv/
 .env
+
+# ===========================
+# IDEs e Editores
+# ===========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ===========================
+# Saídas de treinamento
+# ===========================
+runs/
+logs/
+results/
+outputs/
+checkpoints/
+wandb/
+
+# ===========================
+# Optuna
+# ===========================
+*.db
+optuna_studies/
+
+# ===========================
+# Temporários
+# ===========================
+*.tmp
+*.bak
+*.log
